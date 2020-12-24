@@ -1,42 +1,4 @@
-/*=========================================================
-Author       : Bestwebcreator.
-Template Name: Shopwise - eCommerce Bootstrap 4 HTML Template
-Version      : 1.0
-==============================================================*/
 
-/*=============================================================
-    CSS INDEX
-    =============================
-    01.GENERAL STYLE (body, link color, section-title, buttons, overlay, section-padding etc...)
-    02.START HEADER STYLE
-	03.START BANNER,SLIDER STYLE
-	04.START SHOP BANNER STYLE
-	05.START CATEGORIES STYLE
-	06.START ICON BOX STYLE
-	07.START PORTFOLIO STYLE
-	08.START TESTIMONIAL STYLE
-	09.START BLOG STYLE
-	10.START NEWLETTER STYLE
-	11.START FOOTER STYLE
-	12.START MAP STYLE
-	13.START TEAM STYLE
-	14.START CLIENT LOGO STYLE
-	15.START BREADCRUMB STYLE
-	16.START CONTACT STYLE
-	17.START DIVIDER STYLE
-	18.START ACCORDION STYLE
-	19.START 404 ERROR STYLE
-	20.START LOGIN REGISTER STYLE
-	21.START COMMING SOON STYLE
-	22.START DEAL OF THE DAY STYLE
-	23.START SHOP DESIGN
-	24.START ELEMENT DESIGN
-		
-*=============================================================*/
-
-/*===================================*
-  01.GENERAL STYLE
-*===================================*/
 html, body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -48,7 +10,7 @@ body {
 	background: #ffffff none repeat scroll 0 0;
     color: #687188;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
 }
 h1,h2,h3,h4,h5,h6 {
 	color: #292b2c;
@@ -1249,7 +1211,7 @@ button:focus {
 .light_skin.transparent_header.nav-fixed .navbar .navbar-nav > li:hover > a,
 .transparent_header.nav-fixed .light_skin .navbar .navbar-nav > li > a.active,
 .transparent_header.nav-fixed .light_skin .navbar .navbar-nav > li:hover > a {
-	color: #FFF;
+	color: #333;
 }
 .light_skin .navbar .navbar-nav .dropdown-item,
 .light_skin .navbar .navbar-nav .dropdown-header {
@@ -1264,7 +1226,7 @@ button:focus {
 .navbar .navbar-nav .dropdown-item {
 	padding: 8px 20px 8px 20px;
 	color: #333;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: capitalize;
 }
 .navbar .navbar-nav .dropdown-item.dropdown-toggler {
@@ -1973,8 +1935,13 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 .top-header.light_skin .header_list li a:hover span {
 	color: #FF324D;
 }
-.main_menu_uppercase .navbar-nav > li > .nav-link {
+.main_menu_uppercase .navbar-nav > li > .nav-link: {
 	text-transform: uppercase;
+
+}
+.main_menu_uppercase .navbar-nav > li > .nav-link:hover{
+	color: #000;
+
 }
 .main_menu_weight_100 .navbar .navbar-nav > li > .nav-link {
 	font-weight: 100;
@@ -2627,7 +2594,7 @@ input.text {
 	z-index: 9;
 }
 .search_btn3 {
-	background-color: #FF324D;
+	background-color: #0355A7;
 	color: #fff;
 	border: 0;
 	padding: 10px 30px;
@@ -2679,7 +2646,7 @@ input.text {
 .contact_phone i {
 	font-size: 30px;
 	margin-right: 10px;
-	color: #FF324D;
+	color: #0355A7;
 }
 .contact_phone span {
 	color: #16181b;
@@ -3332,7 +3299,7 @@ input.text {
 	text-align: center;
 }
 .icon_box_style4 .icon i {
-	background-color: #FF324D;
+	background-color: #0355A7;
 	color: #fff;
 	width: 60px;
 	height: 60px;
@@ -4201,7 +4168,7 @@ footer .widget_title {
 	padding: 20px 0;
 }
 .page-title-mini .page-title h1 {
-	font-size: 28px;
+	font-size: 15px;
 }
 .page-title-mini .breadcrumb li {
 	font-size: 14px;
@@ -5310,6 +5277,7 @@ footer .widget_title {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	text-transform: capitalize;
+	font-size: 14px;
 }
 .product_color_switch span {
 	height: 15px;
@@ -6100,7 +6068,7 @@ label.label_info {
 	font-size: 14px;
 }
 .order_complete i {
-	color: #FF324D;
+	color: #5CB85C;
 	font-size: 80px;
 	margin-bottom: 20px;
 }
@@ -6308,7 +6276,7 @@ select option {
 .widget_categories .categories_num,
 .widget_archive .archive_num {
 	float: right;
-	font-size: 14px;
+	font-size: 11px;
 }
 .sidebar .widget + .widget {
     border-top: 1px solid #ddd;
@@ -6729,7 +6697,7 @@ footer .widget_recent_post .post_img img {
 	width: 10px;
 	border-radius: 100%;
 	position: absolute;
-	top: 8px;
+	top: 6px;
 	left: 3px;
 	opacity: 0;
 }
@@ -7256,7 +7224,7 @@ blockquote p:last-child {
 	color: #2b2f4c;
 }
 .dashboard_menu .nav-tabs li.nav-item a.active {
-	background-color: #FF324D;
+	background-color: #0355A7 ;
 	color: #fff;
 }
 .dashboard_menu .nav-tabs li.nav-item a i {

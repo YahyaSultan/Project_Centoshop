@@ -12,7 +12,7 @@
 <meta name="keywords" content="ecommerce, electronics store, Fashion store, furniture store,  bootstrap 4, clean, minimal, modern, online store, responsive, retail, shopping, ecommerce store">
 
 <!-- SITE TITLE -->
-<title>Contact Us</title>
+<title>Sign Up</title>
 <!-- Favicon Icon -->
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/S logo.png">
 <!-- Animation CSS -->
@@ -168,7 +168,7 @@
                     </form>
                 </div>
                 <ul class="navbar-nav attr-nav align-items-center">
-                    <li><a href="#" class="nav-link"><i class="linearicons-user"></i></a></li>
+                    <li><a href="login.html" class="nav-link"><i class="linearicons-user"></i></a></li>
                     <li><a href="#" class="nav-link"><i class="linearicons-heart"></i><span class="wishlist_count">0</span></a></li>
                     <li class="dropdown cart_dropdown"><a class="nav-link cart_trigger" href="#" data-toggle="dropdown"><i class="linearicons-bag2"></i><span class="cart_count">2</span><span class="amount"><span class="currency_symbol">$</span>159.00</span></a>
                         <div class="cart_box cart_right dropdown-menu dropdown-menu-right">
@@ -611,14 +611,14 @@
         <div class="row align-items-center">
         	<div class="col-md-6">
                 <div class="page-title">
-            		<h1>Contact Us</h1>
+            		<h1>My Account</h1>
                 </div>
             </div>
             <div class="col-md-6">
                 <ol class="breadcrumb justify-content-md-end">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Contact Us</a></li>
-          
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active">My Account</li>
                 </ol>
             </div>
         </div>
@@ -626,113 +626,178 @@
 </div>
 <!-- END SECTION BREADCRUMB -->
 
-<!-- START SECTION CONTACT -->
-<div class="section pb_70">
+<!-- START MAIN CONTENT -->
+<div class="main_content">
+
+<!-- START SECTION SHOP -->
+<div class="section">
 	<div class="container">
         <div class="row">
-            <div class="col-xl-4 col-md-6">
-            	<div class="contact_wrap contact_style3">
-                    <div class="contact_icon">
-                        <i class="linearicons-map2"></i>
-                    </div>
-                    <div class="contact_text">
-                        <span>Address</span>
-                        <p>123 Street, Old Trafford, London, UK</p>
-                    </div>
+            <div class="col-lg-3 col-md-4">
+                <div class="dashboard_menu">
+                    <ul class="nav nav-tabs flex-column" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="dashboard-tab" data-toggle="tab" href="#dashboard" role="tab" aria-controls="dashboard" aria-selected="false"><i class="ti-layout-grid2"></i>Dashboard</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="orders-tab" data-toggle="tab" href="#orders" role="tab" aria-controls="orders" aria-selected="false"><i class="ti-shopping-cart-full"></i>Orders</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="address-tab" data-toggle="tab" href="#address" role="tab" aria-controls="address" aria-selected="true"><i class="ti-location-pin"></i>My Address</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="account-detail-tab" data-toggle="tab" href="#account-detail" role="tab" aria-controls="account-detail" aria-selected="true"><i class="ti-id-badge"></i>Account details</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html"><i class="ti-lock"></i>Logout</a>
+                      </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6">
-            	<div class="contact_wrap contact_style3">
-                    <div class="contact_icon">
-                        <i class="linearicons-envelope-open"></i>
-                    </div>
-                    <div class="contact_text">
-                        <span>Email Address</span>
-                        <a href="mailto:info@sitename.com">info@yourmail.com </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-            	<div class="contact_wrap contact_style3">
-                    <div class="contact_icon">
-                        <i class="linearicons-tablet2"></i>
-                    </div>
-                    <div class="contact_text">
-                        <span>Phone</span>
-                        <p>+ 457 789 789 65</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END SECTION CONTACT -->
-
-<!-- START SECTION CONTACT -->
-<div class="section pt-0">
-	<div class="container">
-    	<div class="row">
-        	<div class="col-lg-6">
-            	<div class="heading_s1">
-                	<h2>Get In touch</h2>
-                </div>
-                <p class="leads">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                <div class="field_form">
-                    <form method="post" name="enq">
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <input required placeholder="Enter Name *" id="first-name" class="form-control" name="name" type="text">
-                             </div>
-                            <div class="form-group col-md-6">
-                                <input required placeholder="Enter Email *" id="email" class="form-control" name="email" type="email">
+            <div class="col-lg-9 col-md-8">
+                <div class="tab-content dashboard_content">
+                  	<div class="tab-pane fade active show" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+                    	<div class="card">
+                        	<div class="card-header">
+                                <h3>Dashboard</h3>
                             </div>
-                            <div class="form-group col-md-6">
-                                <input required placeholder="Enter Phone No. *" id="phone" class="form-control" name="phone">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input placeholder="Enter Subject" id="subject" class="form-control" name="subject">
-                            </div>
-                            <div class="form-group col-md-12">
-                                <textarea required placeholder="Message *" id="description" class="form-control" name="message" rows="4"></textarea>
-                            </div>
-                            <div class="col-md-12">
-                                <button type="submit" title="Submit Your Message!" class="btn btn-fill-out" id="submitButton" name="submit" value="Submit">Send Message</button>
-                            </div>
-                            <div class="col-md-12">
-                                <div id="alert-msg" class="alert-msg text-center"></div>
+                            <div class="card-body">
+                    			<p>From your account dashboard. you can easily check &amp; view your <a href="javascript:void(0);" onclick="$('#orders-tab').trigger('click')">recent orders</a>, manage your <a href="javascript:void(0);" onclick="$('#address-tab').trigger('click')">shipping and billing addresses</a> and <a href="javascript:void(0);" onclick="$('#account-detail-tab').trigger('click')">edit your password and account details.</a></p>
                             </div>
                         </div>
-                    </form>		
-                </div>
-            </div>
-            <div class="col-lg-6 pt-2 pt-lg-0 mt-4 mt-lg-0">
-            	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.8607307426855!2d67.0429117143248!3d24.800221984082338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d4266c842df%3A0x73040456d8b53a41!2sCentoSquare!5e0!3m2!1sen!2s!4v1608539725727!5m2!1sen!2s" style="width: 100%;" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-        </div>
-    </div>
+                  	</div>
+                  	<div class="tab-pane fade" id="orders" role="tabpanel" aria-labelledby="orders-tab">
+                    	<div class="card">
+                        	<div class="card-header">
+                                <h3>Orders</h3>
+                            </div>
+                            <div class="card-body">
+                    			<div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Order</th>
+                                                <th>Date</th>
+                                                <th>Status</th>
+                                                <th>Total</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>#1234</td>
+                                                <td>March 15, 2020</td>
+                                                <td>Processing</td>
+                                                <td>$78.00 for 1 item</td>
+                                                <td><a href="#" class="btn btn-fill-out btn-sm">View</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>#2366</td>
+                                                <td>June 20, 2020</td>
+                                                <td>Completed</td>
+                                                <td>$81.00 for 1 item</td>
+                                                <td><a href="#" class="btn btn-fill-out btn-sm">View</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                  	</div>
+					<div class="tab-pane fade" id="address" role="tabpanel" aria-labelledby="address-tab">
+                    	<div class="row">
+                        	<div class="col-lg-6">
+                                <div class="card mb-3 mb-lg-0">
+                                    <div class="card-header">
+                                        <h3>Billing Address</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <address>House #15<br>Road #1<br>Block #C <br>Angali <br> Vedora <br>1212</address>
+                                        <p>New York</p>
+                                        <a href="#" class="btn btn-fill-out">Edit</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3>Shipping Address</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <address>House #15<br>Road #1<br>Block #C <br>Angali <br> Vedora <br>1212</address>
+                                        <p>New York</p>
+                                        <a href="#" class="btn btn-fill-out">Edit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                    <div class="tab-pane fade" id="account-detail" role="tabpanel" aria-labelledby="account-detail-tab">
+						<div class="card">
+                        	<div class="card-header">
+                                <h3>Account Details</h3>
+                            </div>
+                            <div class="card-body">
+                    			<p>Already have an account? <a href="#">Log in instead!</a></p>
+                                <form method="post" name="enq">
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                        	<label>First Name <span class="required">*</span></label>
+                                            <input required="" class="form-control" name="name" type="text">
+                                         </div>
+                                         <div class="form-group col-md-6">
+                                        	<label>Last Name <span class="required">*</span></label>
+                                            <input required="" class="form-control" name="phone">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                        	<label>Display Name <span class="required">*</span></label>
+                                            <input required="" class="form-control" name="dname" type="text">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                        	<label>Email Address <span class="required">*</span></label>
+                                            <input required="" class="form-control" name="email" type="email">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                        	<label>Current Password <span class="required">*</span></label>
+                                            <input required="" class="form-control" name="password" type="password">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                        	<label>New Password <span class="required">*</span></label>
+                                            <input required="" class="form-control" name="npassword" type="password">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                        	<label>Confirm Password <span class="required">*</span></label>
+                                            <input required="" class="form-control" name="cpassword" type="password">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button type="submit" class="btn btn-fill-out" name="submit" value="Submit">Save</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-<!-- END SECTION CONTACT -->
-
-
-
-</div>
-<!-- END MAIN CONTENT -->
+<!-- END SECTION SHOP -->
 
 <!-- START SECTION SUBSCRIBE NEWSLETTER -->
 <div class="section bg_default small_pt small_pb">
-	<div class="custom-container">	
+	<div class="container">	
     	<div class="row align-items-center">	
             <div class="col-md-6">
-            	<div class="newsletter_text text_white">
-                    <h3>Join Our Newsletter Now</h3>
-                    <p> Register now to get updates on promotions. </p>
+                <div class="heading_s1 mb-md-0 heading_light">
+                    <h3>Subscribe Our Newsletter</h3>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="newsletter_form2 rounded_input">
+                <div class="newsletter_form">
                     <form>
-                        <input type="text" required="" class="form-control" placeholder="Enter Email Address">
-                        <button type="submit" class="btn btn-dark btn-radius" name="submit" value="Submit">Subscribe</button>
+                        <input type="text" required="" class="form-control rounded-0" placeholder="Enter Email Address">
+                        <button type="submit" class="btn btn-dark rounded-0" name="submit" value="Submit">Subscribe</button>
                     </form>
                 </div>
             </div>
@@ -752,7 +817,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                 	<div class="widget">
                         <div class="footer_logo">
-                            <a href="#"><img src="assets/images/Cento_logo.png" alt="logo"/></a>
+                            <a href="#"><img src="assets/images/Group 1839.png" alt="logo"/></a>
                         </div>
                      
                     </div>
